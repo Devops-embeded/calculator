@@ -1,13 +1,17 @@
 """
 Calculator library containing basic math operations.
 """
+class Calculator:
 
-def add(first_term, second_term):
-    return first_term + second_term
-
-def subtract(first_term, second_term):
-    return first_term - second_term
+    @staticmethod
+    def add(x, y):
+        return x + y
 
 
-def multiply(a, b):
-    return a * b
+    @staticmethod
+    def subtract(x, y):
+        return x - y
+
+    @staticmethod
+    def multiply(a, b):
+        return a * b
